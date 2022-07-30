@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "same_sex_marriage_chloropleth_animation"
+version = "0.1.0"
+description = ""
+authors = ["Jane Baxter"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+beautifulsoup4 = "^4.11.1"
+pandas = "^1.4.3"
+html5lib = "^1.1"
+regex = "^2022.7.25"
+loguru = "^0.6.0"
+pycountry = "^22.3.5"
+plotly = "^5.9.0"
+safety = "^2.1.1"
+pylint = "^2.14.5"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
